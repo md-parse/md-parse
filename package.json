@@ -1,0 +1,27 @@
+{
+  "name": "md-parse",
+  "version": "0.0.1",
+  "description": "Markdown parsing library",
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "core": "pnpm -F @md-parse/core",
+    "types": "pnpm -F @md-parse/types"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "polaris0211",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}

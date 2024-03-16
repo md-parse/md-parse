@@ -1,0 +1,11 @@
+{
+  "name": "@md-parse/types",
+  "version": "0.0.1",
+  "description": "types",
+  "scripts": {
+    "live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "pnpm exec tsup src/index.ts"
+  },
+  "author": "polaris0211",
+  "license": "MIT"
+}
